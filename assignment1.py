@@ -8,11 +8,12 @@ import pandas as pd
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-API_KEY = "AIzaSyDzDq-zsFue-LoKT3off5kAWRvtVj4IL2M"
+#API_KEY = "YOUR_API_KEY_HERE"
+"# Path to your client secrets file (downloaded from Google Cloud Console)"
+#CLIENT_SECRETS_FILE = "your_client_secret_example.apps.googleusercontent.com.json"
 DATAPATH = "bgg_dataset.csv"
 "# Path to your client secrets file (downloaded from Google Cloud Console)"
-CLIENT_SECRETS_FILE = "client_secret_201398039171-c12k6rtalsj5t8it9rhtmb7flg5mjeg0.apps.googleusercontent.com.json"
-genai.configure(api_key="AIzaSyDzDq-zsFue-LoKT3off5kAWRvtVj4IL2M")
+genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 class BoardGameMechanicsAnalyzer:
