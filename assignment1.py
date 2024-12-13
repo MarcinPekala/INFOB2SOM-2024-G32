@@ -14,6 +14,7 @@ DATAPATH = "bgg_dataset.csv"
 CLIENT_SECRETS_FILE = "client_secret_201398039171-c12k6rtalsj5t8it9rhtmb7flg5mjeg0.apps.googleusercontent.com.json"
 genai.configure(api_key="AIzaSyDzDq-zsFue-LoKT3off5kAWRvtVj4IL2M")
 model = genai.GenerativeModel("gemini-1.5-flash")
+
 class BoardGameMechanicsAnalyzer:
     """Task 1: Deze klasse laat alle functies zien die we gebruiken voor de uiteindelijke GUI"""
 
