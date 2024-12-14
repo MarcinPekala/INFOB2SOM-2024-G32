@@ -10,3 +10,4 @@ API_KEY = "YOUR_API_KEY_HERE"
 "# Path to your client secrets file (downloaded from Google Cloud Console)"
 CLIENT_SECRETS_FILE = "your_client_secret_example.apps.googleusercontent.com.json"
 ```
+DISCLAIMER: Unit tests must be verified for correctness.
